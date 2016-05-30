@@ -8,4 +8,9 @@ creating a new branch is quick & simple
 creating a new branch is quick and simple
 >>>>>>> featurel
 creating a new branch is quick AND simple
+<<<<<<< HEAD
 add merge
+=======
+ilove you
+>>>>>>> dev
+love you 
