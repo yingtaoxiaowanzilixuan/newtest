@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+/*html, body {
+  font-family: "Lato", sans-serif;
+  background: url(dark_stripes.png);
+  text-align: center;
+  height: 100%;
+}*/
+
+.containers {
+  text-align: center;
+   position:relative;
+  margin-top:20px;
+  width: 100%;
+ /* top: 60%;*/
+ /* position: absolute;*/
+ 
+
+}
+
+.toggles {
+  margin: 4px;
+  display: inline-block;
+}
+
+.toggles {
+  box-shadow: inset 0 0 35px 5px rgba(0, 0, 0, 0.25), inset 0 2px 1px 1px rgba(255, 255, 255, 0.9), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background: #74a7a7;
+  position: relative;
+  height: 60px;
+  width: 70px;
+}
+.toggles:before {
+  box-shadow: 0 0 8.25px 3.825px white;
+  border-radius: 59.15px;
+  background: white;
+  position: absolute;
+  margin-left: -25.2px;
+  margin-top: -25.2px;
+  opacity: 0.2;
+  content: "";
+  height: 50.4px;
+  width: 50.4px;
+  left: 50%;
+  top: 50%;
+}
+.toggles .buttons {
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -ms-filter:blue(1px);
+  filter: blur(1px);
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 96.32px;
+  position: absolute;
+  background: #ccd0d4;
+  margin-left: -24.08px;
+  margin-top: -24.08px;
+  display: block;
+  height: 48.16px;
+  width: 48.16px;
+  left: 50%;
+  top: 50%;
+}
+.toggles .labels {
+  transition: color 300ms ease-out;
+  text-shadow: 1px 1px 3px #ccd0d4, 0 0 0 rgba(0, 0, 0, 0.8), 1px 1px 4px white;
+  line-height:60.5px;
+  text-align: center;
+  position: absolute;
+  font-weight: 700;
+  font-size: 15px;
+  display: block;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.8);
+}
+.toggles input {
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.toggles input:active ~ .buttons {
+  box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.4), inset 0 -8px 30px 1px rgba(255, 255, 255, 0.9), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 8px 25px 0 rgba(0, 0, 0, 0.4), inset 0 0 10px 1px rgba(255, 255, 255, 0.6);
+}
+.toggles input:active ~ .labels {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.toggles input:checked ~ .buttons {
+  box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.4), inset 0 -8px 25px -1px rgba(255, 255, 255, 0.9), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 8px 20px 0 rgba(0, 0, 0, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.6);
+}
+.toggles input:checked ~ .labels {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="web" Class="qdbusDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=222.195.148.120;Initial Catalog=web;Persist Security Info=True;User ID=web" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="webConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AllStops" Member="AllStops">
+    <Type Name="AllStops">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="busLineId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="busOnewayId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="BusStopsType" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="BusStopsNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BusStopsName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BusRealInfoWeight" Member="BusRealInfoWeight">
+    <Type Name="BusRealInfoWeight">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BusStopName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stationname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stopnumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="timeCount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="timespan" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="distance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="speed" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="week" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[level]" Member="level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BusRealInfoWeight2" Member="BusRealInfoWeight2">
+    <Type Name="BusRealInfoWeight2">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BusStopName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stationname" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="stopnumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="timeCount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="timespan" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="distance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="speed" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="week" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lng" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BaiduAndQdRealBusLine_View" Member="BaiduAndQdRealBusLine_View">
+    <Type Name="BaiduAndQdRealBusLine_View">
+      <Column Name="BaiduBusLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BaiDuStartStation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BaiDuStopStaion" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BusStopsName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BaiduBuslineName_View" Member="BaiduBuslineName_View">
+    <Type Name="BaiduBuslineName_View">
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BusLineUpDown" Member="BusLineUpDown">
+    <Type Name="BusLineUpDown">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="updown" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="busStart" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="busEnd" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BusLineInfo" Member="BusLineInfo">
+    <Type Name="BusLineInfo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="busLineId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BusOnewayId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="busType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.busStopCoordinates" Member="busStopCoordinates">
+    <Type Name="busStopCoordinates">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="startstop" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="endstop" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stopnumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="stop" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lng" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="distance" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BusStaionMatch" Member="BusStaionMatch">
+    <Type Name="BusStaionMatch">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StationName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BusStopsName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="BusLineName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Loop" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Lng" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.busstation" Member="busstation">
+    <Type Name="busstation">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="busroad" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="updown" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="stopnumber" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="busstation" Member="busstation1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="lng" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="street" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RealBus" Member="RealBus">
+    <Type Name="RealBus">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BusStopsName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stationname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="actdatetime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stationnum" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="busselfid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lng" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Message" Member="Message">
+    <Type Name="Message">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="mail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="message" Member="message1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.visualData" Member="visualData">
+    <Type Name="visualData">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BusStopName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stationname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stopnumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="timeCount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="timespan" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="distance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="speed" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="week" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="startlng" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="starlat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="endlng" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="endlat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="street" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="district" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StatisticsOfBoardingNum_AllLines" Member="StatisticsOfBoardingNum_AllLines">
+    <Type Name="StatisticsOfBoardingNum_AllLines">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RouteName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RouteID" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="BoardingNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Week" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Lon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CardBoardingStation_Count" Member="CardBoardingStation_Count">
+    <Type Name="CardBoardingStation_Count">
+      <Column Name="RouteName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RouteID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="counts" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="station_num" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Lat1" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="Lon1" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="pid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CardBoardingStation_Count_ALL" Member="CardBoardingStation_Count_ALL">
+    <Type Name="CardBoardingStation_Count_ALL">
+      <Column Name="RouteName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RouteID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="counts" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="station_num" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Lat1" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="Lon1" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="pid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NumOfSegment_125" Member="NumOfSegment_125">
+    <Type Name="NumOfSegment_125">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LineID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StartStationID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EndStationID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StartStationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EndStationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StartLon" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="StartLat" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="EndLon" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="EndLat" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PassengerNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NumOfSegment_AllLines" Member="NumOfSegment_AllLines">
+    <Type Name="NumOfSegment_AllLines">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LineID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StartStationID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EndStationID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StartStationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EndStationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StartLon" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="StartLat" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="EndLon" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="EndLat" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PassengerNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QDStationCoorinateUnique" Member="QDStationCoorinateUnique">
+    <Type Name="QDStationCoorinateUnique">
+      <Column Name="StationID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StationCoordinatesOfAllLines" Member="StationCoordinatesOfAllLines">
+    <Type Name="StationCoordinatesOfAllLines">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RouteID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SubRouteID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OneTripID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StationID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StationType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SignleNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RoundNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="RouteName" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QDStationCoorinateUnique1" Member="QDStationCoorinateUnique1">
+    <Type Name="QDStationCoorinateUnique1">
+      <Column Name="StationID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="lat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="bdlon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="bdlat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SingleStationVisual" Member="SingleStationVisual">
+    <Type Name="SingleStationVisual">
+      <Column Name="BoardStationID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AlightStationID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BoardLat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BoardLon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AlightLat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AlightLon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BAID" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="NUM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TripOfEachCardRecord_Static" Member="TripOfEachCardRecord_Static">
+    <Type Name="TripOfEachCardRecord_Static">
+      <Column Name="BSID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ASID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BoardLat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BoardLon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AlightLat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AlightLon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BAID" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="NUM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="BSName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ASName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TripOfEachCardRecord_TimeInterval" Member="TripOfEachCardRecord_TimeInterval">
+    <Type Name="TripOfEachCardRecord_TimeInterval">
+      <Column Name="BSID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ASID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="BAID" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="Num" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TimeInterval" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Blon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Blat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Alon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Alat" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

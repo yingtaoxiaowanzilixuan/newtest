@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.5, 13" name="qdbusDataClasses">
+  <DataContextMoniker Name="/qdbusDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4a8fa3d9-b07c-463f-8dfa-b1e0282eaf42" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/AllStops" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07986445-4ef7-4a8d-8995-35f3ca9da9bb" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d2dd9b6a-e200-4d03-ad04-fa360b9e789e" isExpanded="false" absoluteBounds="0.5, 2.75, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/BusRealInfoWeight" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80274680-9dd4-4ffe-bacc-bc08211ac4e4" absoluteBounds="0.51500000000000012, 3.21, 1.9700000000000002, 2.348683675130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1979adb3-6c35-48bc-814c-c1dc7a1abc29" isExpanded="false" absoluteBounds="0.5, 4.75, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/BusRealInfoWeight2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="441dc543-7f71-4139-9378-5737c8fbc460" absoluteBounds="0.51500000000000012, 5.21, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a19bad02-32d5-47f8-89f5-34bcea76dcb3" absoluteBounds="2.625, 0.5, 2, 1.7625655110677081">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/BaiduAndQdRealBusLine_View" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf20c566-2151-45a2-8bc7-3ece2594b398" absoluteBounds="2.64, 0.96, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="569632b9-f053-4131-8de4-c8787e7fdd89" absoluteBounds="5, 0.5, 2, 0.99848673502604179">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/BaiduBuslineName_View" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c983259d-f61b-424e-8f1f-4b694d4c9287" absoluteBounds="5.015, 0.96, 1.9700000000000002, 0.43848673502604163" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b8cb5813-df4f-4900-be36-6aaedaaeb14d" isExpanded="false" absoluteBounds="2.625, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/BusLineUpDown" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92848a60-6501-4212-a33e-c08d19262bff" absoluteBounds="2.64, 2.96, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ebf4182d-fa57-4148-8cf8-d00f768a549a" isExpanded="false" absoluteBounds="5, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/BusLineInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e3c3058-2de1-4aec-a86b-788baf9d5d81" absoluteBounds="5.015, 2.21, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26ee839e-7447-434e-a729-b486ad2a6aa0" isExpanded="false" absoluteBounds="5, 3.875, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/busStopCoordinates" />
+      <nestedChildShapes>
+        <elementListCompartment Id="615f89cd-8462-415c-9f49-0629cd487058" absoluteBounds="5.015, 4.335, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b6237044-b790-4e57-b7c0-f54401a6d69a" absoluteBounds="7.25, 0.5, 2, 2.1446048990885416">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/BusStaionMatch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="001aea11-e679-44b3-b2e1-2ad007f4c39d" absoluteBounds="7.265, 0.96, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="32a18070-f6a3-4125-8514-4ebef1cecf44" isExpanded="false" absoluteBounds="7.125, 3.125, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/busstation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49278ed9-0773-4cc7-8ddf-ebf6d210c2ea" absoluteBounds="7.14, 3.585, 1.9700000000000002, 1.7756245930989583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="60cf904c-cb14-4a45-b82d-4e5fe463dcaa" isExpanded="false" absoluteBounds="3, 3.75, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/RealBus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d0cdf867-de09-4716-a2ab-ca1bc3172fdf" absoluteBounds="3.015, 4.21, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="233566ed-9547-4245-b6fd-66b137dff896" isExpanded="false" absoluteBounds="2.625, 5.375, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/Message" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2033a7d1-b8b6-4e2b-a75b-e4cbd4449034" absoluteBounds="2.6399999999999997, 5.835, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="beb706ac-9935-4ad8-b6c4-8c52660c489f" isExpanded="false" absoluteBounds="5, 5.25, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/visualData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6699b7f4-8f0d-41e8-aa94-6a05d7670296" absoluteBounds="5.015, 5.71, 1.9700000000000002, 3.3037821451822915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d9b438e3-00c7-48f0-aaf3-16c8de32e995" isExpanded="false" absoluteBounds="0.625, 3.25, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/StatisticsOfBoardingNum_AllLines" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e7fb1b8e-b64a-4f5a-a45d-b7d65212f609" absoluteBounds="0.64000000000000012, 3.71, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f25c131d-c5f3-4a7d-9855-2377fb56002a" isExpanded="false" absoluteBounds="0.5, 3.875, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/CardBoardingStation_Count" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec24c443-64a3-47dd-a895-2ce476599fb6" absoluteBounds="0.51500000000000012, 4.335, 1.9700000000000002, 2.348683675130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0ee6d956-f1a8-4ae5-a887-cc204705d588" isExpanded="false" absoluteBounds="1.125, 4.5, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/CardBoardingStation_Count_ALL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b03c150-f963-4030-8320-3cf7494ee5df" absoluteBounds="1.1400000000000001, 4.96, 1.9700000000000002, 2.348683675130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9f621aa-09d4-4735-8aeb-7b42c0b84a76" isExpanded="false" absoluteBounds="4, 4.625, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/NumOfSegment_125" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f20ed5d-1f5a-49f1-9de8-35b221c83a8c" absoluteBounds="4.015, 5.085, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="557b8d61-6341-4745-b41a-ffe21dc0ea59" isExpanded="false" absoluteBounds="7.125, 4.5, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/NumOfSegment_AllLines" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7494cd9-5251-469c-bfb9-8bd240b839d3" absoluteBounds="7.1400000000000006, 4.96, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4a8fb397-677f-41a1-99b5-1860ddc85f8b" absoluteBounds="7.125, 10.125, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/QDStationCoorinateUnique" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6ada5d9-0f28-4791-bbbd-bd77821fac72" absoluteBounds="7.14, 10.585, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8842e1f2-afd0-496b-aea5-678f9c082df3" isExpanded="false" absoluteBounds="9.25, 0.75, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/StationCoordinatesOfAllLines" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d4cca24-979c-46ae-af25-5e16148c2d4a" absoluteBounds="9.265, 1.21, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c47df097-9feb-475a-a229-5c77e3020bb9" isExpanded="false" absoluteBounds="0.5, 5.25, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/QDStationCoorinateUnique1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="799d4f91-c78b-4595-a9fb-93c0063ee2e1" absoluteBounds="0.51499999999999968, 5.7100000000000009, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3ef544e9-2571-4f3e-89f3-3ec65af4746b" isExpanded="false" absoluteBounds="3.5, 5.875, 2, 0.45">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/SingleStationVisual" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e28aca85-5639-4778-9b1a-9bc32814396b" absoluteBounds="3.5149999999999997, 6.3350000000000009, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ffeb51f4-8f72-48a5-8cd3-c56a0beef566" absoluteBounds="3, 9.875, 2, 2.9086836751302076">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/TripOfEachCardRecord_Static" />
+      <nestedChildShapes>
+        <elementListCompartment Id="044165a7-54fd-44ce-ad27-c701816d649f" absoluteBounds="3.0149999999999997, 10.335, 1.9700000000000002, 2.348683675130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="556645f6-f77a-4e83-a685-d0d10571ea0d" absoluteBounds="7.5, 6.875, 2, 2.7176639811197916">
+      <DataClassMoniker Name="/qdbusDataClassesDataContext/TripOfEachCardRecord_TimeInterval" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1449c3e1-0bae-4839-b393-29d19f9ee4a2" absoluteBounds="7.515, 7.335, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

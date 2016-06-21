@@ -1,0 +1,26 @@
+System.Net.Sockets Verbose: 0 : [20584] Socket#51133051::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [20584] Exiting Socket#51133051::Socket() 
+System.Net.Sockets Verbose: 0 : [20584] Socket#51133051::Bind(0.0.0.0:20135#20135)
+System.Net.Sockets Verbose: 0 : [20584] Exiting Socket#51133051::Bind() 
+System.Net.Sockets Verbose: 0 : [20584] Socket#51133051::Listen(Int32#100)
+System.Net.Sockets Verbose: 0 : [20584] Exiting Socket#51133051::Listen() 
+System.Net.Sockets Verbose: 0 : [20584] Socket#51133051::AcceptAsync()
+System.Net.Sockets Verbose: 0 : [20584] Socket#44930861::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [20000] Socket#39723385::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [20584] Exiting Socket#44930861::Socket() 
+System.Net.Sockets Verbose: 0 : [20000] Exiting Socket#39723385::Socket() 
+System.Net.Sockets Verbose: 0 : [20584] Exiting Socket#51133051::AcceptAsync() 	-> Boolean#1
+System.Net.Sockets Verbose: 0 : [20000] Socket#39723385::Bind(0.0.0.0:20145#20145)
+System.Net.Sockets Verbose: 0 : [20000] Exiting Socket#39723385::Bind() 
+System.Net.Sockets Verbose: 0 : [20000] Socket#39723385::Listen(Int32#100)
+System.Net.Sockets Verbose: 0 : [20000] Exiting Socket#39723385::Listen() 
+System.Net.Sockets Verbose: 0 : [20000] Socket#39723385::Accept()
+System.Net.Sockets Verbose: 0 : [15524] Socket#51133051::Close()
+System.Net.Sockets Verbose: 0 : [15524] Socket#51133051::Dispose()
+System.Net.Sockets Error: 0 : [4700] Socket#51133051::UpdateStatusAfterSocketError() - OperationAborted
+System.Net.Sockets Verbose: 0 : [15524] Exiting Socket#51133051::Close() 
+System.Net.Sockets Verbose: 0 : [15524] Socket#39723385::Close()
+System.Net.Sockets Verbose: 0 : [15524] Socket#39723385::Dispose()
+System.Net.Sockets Verbose: 0 : [15524] Exiting Socket#39723385::Close() 
+System.Net.Sockets Error: 0 : [20000] Socket#39723385::UpdateStatusAfterSocketError() - Interrupted
+System.Net.Sockets Error: 0 : [20000] Socket#39723385::Accept - 一个封锁操作被对 WSACancelBlockingCall 的调用中断。 中的异常。

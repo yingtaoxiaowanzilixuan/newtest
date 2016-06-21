@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="web" Class="qdRealBusDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=222.195.148.120;Initial Catalog=web;Persist Security Info=True;User ID=web" SettingsObjectName="qdRealBusService.Properties.Settings" SettingsPropertyName="webConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.visualData" Member="visualData">
+    <Type Name="visualData">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BusStopName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stationname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stopnumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="timeCount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="timespan" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="distance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="speed" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="week" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="startlng" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="starlat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="endlng" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="endlat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="street" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="district" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RealBus" Member="RealBus">
+    <Type Name="RealBus">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="busLineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BusStopsName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stationname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="actdatetime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stationnum" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="busselfid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lng" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="passger" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="qdRealBusDataClasses">
+  <DataContextMoniker Name="/qdRealBusDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f6f52a0a-a82e-46c1-8394-d981a56a8c9b" absoluteBounds="4.625, 1.625, 2, 3.7548343912760416">
+      <DataClassMoniker Name="/qdRealBusDataClassesDataContext/visualData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92b118ba-98e0-40e2-a9cc-25c04afd0da6" absoluteBounds="4.64, 2.085, 1.9700000000000002, 3.1948343912760415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ea6bf68e-ec14-4d96-8bb7-aafc52f6efc7" absoluteBounds="1.75, 1, 2, 2.6460697428385416">
+      <DataClassMoniker Name="/qdRealBusDataClassesDataContext/RealBus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="caef6a94-2ff3-421b-84c9-15f46f09eba5" absoluteBounds="1.7649999999999997, 1.46, 1.9700000000000002, 2.0860697428385415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
